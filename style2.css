@@ -1,0 +1,118 @@
+/* Reset some defaults */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #111;
+  color: #eee;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #222;
+}
+header img {
+  width: 120px;
+  height: 130px;
+  border-radius: 50%;
+  margin-bottom: 0%;
+}
+header h1 {
+  font-size: 2rem;
+  color: #ffb400;
+}
+header p {
+  color: #aaa;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  color: #ffb400;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+/* Skills */
+ul {
+  list-style: none;
+}
+ul li {
+  background: #333;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+/* Projects */
+.project-card {
+  background: #222;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+.project-card h3 {
+  color: #ffb400;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #aaa;
+  margin-top: 2rem;
+}
+
+.project-card:hover {
+  transform: scale(1.025);
+  background-color: #575353;
+}
+a {
+  color: #ffb400;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+li:hover{
+    transform: scale(1.01);
+  background-color: #b8a2a2;
+  font-size: large;
+}
+strong:hover{
+   transform: scale(1.2);
+  background-color: #274240;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #aaa;
+  margin-top: 2rem;
+} 
+.resume-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: #ffb400;
+  color: #111;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.resume-btn:hover {
+  background: #887d69;
+  transform: scale(1.05);
+}
